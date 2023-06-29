@@ -625,7 +625,6 @@
   ./services/misc/etcd.nix
   ./services/misc/etebase-server.nix
   ./services/misc/etesync-dav.nix
-  ./services/misc/exhibitor.nix
   ./services/misc/felix.nix
   ./services/misc/freeswitch.nix
   ./services/misc/fstrim.nix
@@ -726,6 +725,7 @@
   ./services/monitoring/alerta.nix
   ./services/monitoring/apcupsd.nix
   ./services/monitoring/arbtt.nix
+  ./services/monitoring/below.nix
   ./services/monitoring/bosun.nix
   ./services/monitoring/cadvisor.nix
   ./services/monitoring/cockpit.nix
@@ -754,6 +754,7 @@
   ./services/monitoring/munin.nix
   ./services/monitoring/nagios.nix
   ./services/monitoring/netdata.nix
+  ./services/monitoring/opentelemetry-collector.nix
   ./services/monitoring/parsedmarc.nix
   ./services/monitoring/prometheus/alertmanager-irc-relay.nix
   ./services/monitoring/prometheus/alertmanager.nix
@@ -1012,6 +1013,7 @@
   ./services/networking/shorewall.nix
   ./services/networking/shorewall6.nix
   ./services/networking/shout.nix
+  ./services/networking/sing-box.nix
   ./services/networking/sitespeed-io.nix
   ./services/networking/skydns.nix
   ./services/networking/smartdns.nix
@@ -1167,6 +1169,7 @@
   ./services/wayland/cage.nix
   ./services/web-apps/akkoma.nix
   ./services/web-apps/alps.nix
+  ./services/web-apps/anuko-time-tracker.nix
   ./services/web-apps/atlassian/confluence.nix
   ./services/web-apps/atlassian/crowd.nix
   ./services/web-apps/atlassian/jira.nix
@@ -1193,6 +1196,8 @@
   ./services/web-apps/gotosocial.nix
   ./services/web-apps/grocy.nix
   ./services/web-apps/pixelfed.nix
+  ./services/web-apps/guacamole-client.nix
+  ./services/web-apps/guacamole-server.nix
   ./services/web-apps/healthchecks.nix
   ./services/web-apps/hedgedoc.nix
   ./services/web-apps/hledger-web.nix
@@ -1275,6 +1280,7 @@
   ./services/web-servers/nginx/gitweb.nix
   ./services/web-servers/phpfpm/default.nix
   ./services/web-servers/pomerium.nix
+  ./services/web-servers/rustus.nix
   ./services/web-servers/stargazer.nix
   ./services/web-servers/tomcat.nix
   ./services/web-servers/traefik.nix
